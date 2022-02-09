@@ -1,0 +1,63 @@
+.header-container {
+  max-width: 1249px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  width: 700px;
+}
+
+.header-left h2 {
+  font-size: 60px;
+  letter-spacing: 2px;
+  line-height: 72px;
+  color: #000000;
+  font-weight: 800;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  margin-top: -16px;
+  margin-left: -4px;
+  margin-bottom: 17px;
+}
+
+.header-left span {
+  letter-spacing: 6px;
+}
+
+.header-left p {
+  width: 540px;
+  height: 77px;
+  margin-bottom: 62px;
+}
+
+.header-left button {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 34px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  width: 227px;
+  height: 55px;
+  border-radius: 5px;
+  background-color: #ff2d2d;
+  cursor: pointer;
+}
+
+.header-right {
+  width: 549px;
+}
+
+.header-video {
+  width: 551px;
+  height: 356px;
+  background-color: #000000;
+}
+
+.header-video:hover {
+  width: 551px;
+  height: 356px;
+  filter: drop-shadow(-2.19px -13.828px 36.5px rgba(0, 0, 0, 0.29));
+  background-color: #ff2222;
+}

@@ -1,0 +1,103 @@
+.team {
+  margin-bottom: 106px;
+}
+
+.team-info {
+  margin-bottom: 68px;
+}
+
+.team-info h2 {
+  font-size: 42px;
+  letter-spacing: 0px;
+  color: var(--text-color);
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  margin-left: -10px;
+  margin-bottom: 22px;
+}
+
+.team-info p {
+  max-width: 450px;
+  height: 77px;
+  margin-bottom: 36px;
+}
+
+.social-wrapper {
+  display: flex;
+}
+
+.social-left {
+  width: 28%;
+}
+
+.social-left img {
+  width: 318px;
+  height: 458px;
+}
+
+.social-right {
+  width: 72%;
+  padding: 6px 41px;
+}
+
+.social-right h2 {
+  font-size: 30px;
+  letter-spacing: 0px;
+  color: var(--text-color);
+  font-weight: 600;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.social-right p {
+  width: 632px;
+  height: 77px;
+  margin-bottom: 14px;
+}
+
+.social-links {
+  display: flex;
+  margin-bottom: 62px;
+}
+
+.social-links li {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: var(--text-secondary);
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Open Sans";
+  padding-right: 30px;
+  margin-left: 2px;
+}
+
+.social-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-images > div {
+  width: 197px;
+  height: 214px;
+  margin-right: -36px;
+  background-color: #f5f0dd;
+}
+
+.social-images div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.user-name {
+  width: 197px;
+  height: 37px;
+  color: #f6f2f2;
+  background-color: #7a786e;
+  text-transform: uppercase;
+  padding: 9px 0px;
+  letter-spacing: 0px;
+}

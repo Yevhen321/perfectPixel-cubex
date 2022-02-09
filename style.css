@@ -1,0 +1,164 @@
+@import url("./styles/nav-content.css");
+@import url("./styles/header.css");
+@import url("./styles/provide.css");
+@import url("./styles/reset.css");
+@import url("./styles/products.css");
+@import url("./styles/team.css");
+@import url("./styles/notifications.css");
+
+:root {
+  --clr-red: #ff2d2d;
+  --text-primary: #333;
+  --text-secondary: #4c4c4c;
+  --text-color: #000000;
+}
+
+.active-menu {
+  color: var(--clr-red);
+}
+
+body {
+  font-family: "Anton", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  width: 1249px;
+  margin: 0 auto;
+}
+
+.nav-header-wrapper {
+  width: 1579px;
+  height: 688px;
+  background-color: #f6f2f2;
+  margin-bottom: 80px;
+}
+
+.underline {
+  width: 132px;
+  height: 2px;
+  background: var(--clr-red);
+}
+
+.text {
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 28px;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.container {
+  width: 1577px;
+}
+
+.content {
+  max-width: 1249px;
+  margin: 0 auto;
+}
+
+.under {
+  width: 1249px;
+  height: 1px;
+  background: lightslategray;
+  margin-top: 58px;
+  margin-bottom: 94px;
+}
+
+.contact-wrapper {
+  margin-left: 164px;
+  height: 769px;
+}
+
+.contact-info h2 {
+  text-transform: uppercase;
+  font-size: 42px;
+  letter-spacing: 0px;
+  color: var(--text-color);
+  font-weight: 700;
+  font-family: "Open Sans";
+  margin-bottom: 32px;
+}
+
+.contact-info p {
+  width: 725px;
+  height: 77px;
+  margin-bottom: 57px;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 75px;
+}
+
+.contact-form-left {
+  border: 1px solid black;
+  width: 59%;
+  flex-direction: column;
+  display: flex;
+}
+
+.contact-data:first-child input {
+  margin-right: 48px;
+}
+
+.contact-data:ntn-child input {
+  padding: 0px 49px;
+}
+
+.name {
+  width: 339px;
+  height: 69px;
+  border-radius: 10px;
+  background-color: #e5e5e5;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--text-color);
+  font-weight: 400;
+  font-family: "Open Sans";
+  border: none;
+  padding: 0px 52px;
+}
+
+.contact-message {
+  padding-top: 48px;
+}
+
+.message {
+  width: 731px;
+  height: 249px;
+  border-radius: 10px;
+  background-color: #e5e5e5;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--text-color);
+  font-weight: 400;
+  font-family: "Open Sans";
+  border: none;
+  padding: 25px 50px;
+}
+
+.contact-send {
+  padding-top: 39px;
+}
+
+.send {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 34px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+  width: 728px;
+  height: 72px;
+  border-radius: 5px;
+  background-color: #ff3b3b;
+  text-transform: uppercase;
+}
+
+.contact-form-right {
+  border: 1px solid black;
+  width: 41%;
+}
