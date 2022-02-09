@@ -25,3 +25,23 @@ footer .social {
   display: flex;
   justify-content: inherit;
 }
+
+.twitter:hover {
+  background-color: rgba(0, 0, 255, 0.995);
+  border-radius: 50%;
+}
+
+.linkedin:hover {
+  background-color: rgba(0, 0, 255, 0.769);
+  border-radius: 50%;
+}
+
+.google:hover {
+  background-color: rgb(155, 220, 186);
+  border-radius: 50%;
+}
+
+.facebook:hover {
+  background-color: rgba(0, 0, 255, 0.427);
+  border-radius: 50%;
+}
