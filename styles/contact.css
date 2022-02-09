@@ -1,0 +1,121 @@
+.contact-wrapper {
+  margin-left: 164px;
+  margin-bottom: 110px;
+}
+
+.contact-info h2 {
+  text-transform: uppercase;
+  font-size: 42px;
+  letter-spacing: 0px;
+  color: var(--text-color);
+  font-weight: 700;
+  font-family: "Open Sans";
+  margin-bottom: 32px;
+}
+
+.contact-info p {
+  width: 725px;
+  height: 77px;
+  margin-bottom: 57px;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 76px;
+}
+
+.contact-form-left {
+  width: 59%;
+  flex-direction: column;
+  display: flex;
+}
+
+.contact-data:first-child input {
+  margin-right: 48px;
+}
+
+.contact-data:ntn-child input {
+  padding: 0px 49px;
+}
+
+.name {
+  width: 339px;
+  height: 69px;
+  border-radius: 10px;
+  background-color: #e5e5e5;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--text-color);
+  font-weight: 400;
+  font-family: var(--font-family);
+  border: none;
+  padding: 0px 52px;
+}
+
+.contact-message {
+  padding-top: 48px;
+}
+
+.message {
+  width: 731px;
+  height: 249px;
+  border-radius: 10px;
+  background-color: #e5e5e5;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--text-color);
+  font-weight: 400;
+  font-family: var(--font-family);
+  border: none;
+  padding: 27px 50px;
+}
+
+.contact-send {
+  padding-top: 39px;
+}
+
+.send {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 34px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: var(--font-family);
+  text-align: center;
+  width: 728px;
+  height: 72px;
+  border-radius: 5px;
+  background-color: var(--clr-red);
+  text-transform: uppercase;
+}
+
+.contact-form-right {
+  width: 575px;
+  height: 482px;
+  background-color: #4c4c4c;
+  padding: 135px 80px;
+}
+
+.contact-form-right h2 {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 34px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.contact-form-right p {
+  color: #ffffff;
+}
+
+.contact-form-right .address {
+  margin-bottom: 17px;
+}
+
+.contact-form-right .email {
+  margin-bottom: 17px;
+}
