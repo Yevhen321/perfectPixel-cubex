@@ -42,3 +42,13 @@ footer .social {
   background-color: rgba(0, 0, 255, 0.427);
   border-radius: 50%;
 }
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .footer-wrapper {
+    width: 100%;
+  }
+
+  footer .social {
+    width: 100%;
+  }
+}

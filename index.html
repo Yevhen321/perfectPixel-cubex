@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,700&display=swap"
       rel="stylesheet"
@@ -15,7 +16,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="nav-header-wrapper container">
+      <div class="nav-header-wrapper">
         <!--Navigation-->
         <nav class="content">
           <div class="nav-container">
@@ -26,10 +27,15 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
+          <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
         </nav>
         <!--Header-->
         <header class="content">
-          <div class="header-container content">
+          <div class="header-container">
             <div class="header-left">
               <h2>Our Strong <span>Organaisation</span></h2>
               <p class="text">
@@ -39,14 +45,14 @@
               </p>
               <button>Contact Us</button>
             </div>
-            <div class="header-right">
+            <div class="header-right hidden">
               <div class="header-video"></div>
             </div>
           </div>
         </header>
       </div>
+      <!--Provide Section-->
       <div class="content">
-        <!--Provide Section-->
         <section class="provide">
           <div class="provide-left">
             <h2 class="provide-title title">
@@ -99,7 +105,6 @@
             </div>
           </div>
         </section>
-        <div class="under"></div>
 
         <!--Products-->
         <section class="products">
@@ -107,7 +112,7 @@
             <h2 class="section-title title">Feature Products</h2>
             <p class="products-text-block-info text">
               Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do
-              eius&shy;mod tempor incididunt ut labore et.
+              eiusmod tempor incididunt ut labore et.
             </p>
             <div class="underline-product underline"></div>
           </div>
@@ -175,7 +180,7 @@
       </div>
 
       <!--Notifications-->
-      <section class="notifications container">
+      <section class="notifications">
         <div class="notifications-desc">
           <h2>Design tips, tricks, and freebies. Delivered weekly.</h2>
           <p>
@@ -232,9 +237,9 @@
         </div>
       </section>
       <!--Footer-->
-      <footer class="container">
+      <footer>
         <div class="footer-wrapper content">
-          <div class="copyright">
+          <div class="copyright hidden">
             <p>© Copyright @Junaed 2016, All rights reserved.</p>
           </div>
           <div class="social">
@@ -257,5 +262,7 @@
         </div>
       </footer>
     </div>
+
+    <script src="./index.js"></script>
   </body>
 </html>

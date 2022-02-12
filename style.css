@@ -26,15 +26,11 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-a,
-button {
-  cursor: pointer;
-}
-
 .nav-header-wrapper {
-  height: 660px;
+  height: 686px;
   background-color: #f6f2f2;
-  margin-bottom: 108px;
+  margin-bottom: 110px;
+  padding-top: 29px;
 }
 
 .underline {
@@ -61,6 +57,9 @@ button {
 
 .container {
   width: 1577px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .content {
@@ -68,66 +67,76 @@ button {
   margin: 0 auto;
 }
 
-.under {
-  width: 1249px;
-  height: 1px;
-  background: lightslategray;
-  margin-top: 58px;
-  margin-bottom: 94px;
-}
-
-@media screen and (max-width: 480px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   .container {
-    max-width: 480px;
+    width: 100%;
   }
 
   .content {
-    max-width: 460px;
+    width: 90%;
   }
 
   .nav-header-wrapper {
+    width: 100%;
     margin-bottom: 50px;
-  }
-
-  .under {
-    width: 460px;
-    margin-top: 30px;
-    margin-bottom: 30px;
   }
 
   .title {
     font-size: 29px;
   }
 
-  .products {
+  .underline {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .content {
+    width: 90%;
+  }
+
+  .nav-header-wrapper {
+    width: 100%;
+    height: 100%;
     margin-bottom: 50px;
   }
 
-  .products .gallery {
-    margin-top: 30px;
+  .title {
+    font-size: 29px;
   }
 
-  .gallery-menu {
-    display: flex;
-    flex-direction: column;
+  .underline {
+    margin-top: 50px;
   }
-  .gallery-images {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px 5px;
-    margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .container {
+    width: 100%;
   }
 
-  .gallery-images img {
-    width: 150px;
-    height: 150px;
+  .content {
+    width: 90%;
   }
 
-  .team {
+  .nav-header-wrapper {
+    width: 100%;
+    height: 100%;
     margin-bottom: 50px;
   }
 
-  .team-info {
-    margin-bottom: 40px;
+  .title {
+    font-size: 29px;
+  }
+
+  .underline {
+    margin-top: 50px;
+  }
+  .hidden {
+    display: none;
   }
 }
