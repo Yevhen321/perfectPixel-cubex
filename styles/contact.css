@@ -83,6 +83,7 @@
   border-radius: 5px;
   background-color: var(--clr-red);
   text-transform: uppercase;
+  border: none;
 }
 
 .contact-form-right {
